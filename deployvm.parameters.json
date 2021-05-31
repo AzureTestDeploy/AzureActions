@@ -1,0 +1,39 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "vmName": {
+      "value": "TestVM01"
+    },
+    "location": {
+      "value": ""
+    },
+    "adminUsername": {
+      "value": "azadmin"
+    },
+    "adminPassword": {
+      "value": ""
+    },
+    "publisher": {
+      "value": "MicrosoftWindowsServer"
+    },
+    "offer": {
+      "value": "WindowsServer"
+    },
+    "windowsOsVersion": {
+      "value": "2019-Datacenter"
+    },
+    "vmSize": {
+      "value": "Standard_D2as_v4"
+    },
+    "subnetId": {
+      "value": ""
+    },
+    "resourceTags": {
+      "value": {
+        "Environment": "Test",
+        "Project": "Bicep"
+      }
+    }
+  }
+}
