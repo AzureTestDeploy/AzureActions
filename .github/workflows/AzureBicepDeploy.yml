@@ -24,6 +24,6 @@ jobs:
             az account set --subscription 448f0278-e43c-4caa-9984-1841d3dc91eb
             az deployment group create \
             --name StorageAccountDeployment \
-            --resource-group  \
+            --resource-group GithubActionsRG \
             --template-file BicepFiles/deployvm.bicep \
             --parameters BicepFiles/deployvm.parameters.json
