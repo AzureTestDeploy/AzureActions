@@ -25,5 +25,5 @@ jobs:
             az deployment group create \
             --name StorageAccountDeployment \
             --resource-group GithubActionsRG \
-            --template-file BicepFiles/deployvm.bicep \
-            --parameters BicepFiles/deployvm.parameters.json
+            --template-file Bicepfiles/deployvnet_nsg.bicep \
+            --parameters BicepFiles/deployvnet.parameters.json
