@@ -18,7 +18,7 @@ resource networkSecurityGroup01Name_resource 'Microsoft.Network/networkSecurityG
   location: resourceGroup().location
   properties: {
 //Rule to be enabled later 
-    /* securityRules: [
+    securityRules: [
       {
         name: 'HTTPS'
         properties: {
@@ -33,7 +33,7 @@ resource networkSecurityGroup01Name_resource 'Microsoft.Network/networkSecurityG
           direction: 'Inbound'
         }
       }
-    ] */
+    ]
   } 
 }
 
